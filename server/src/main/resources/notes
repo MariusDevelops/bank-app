@@ -1,0 +1,7 @@
+
+
+https://spring.io/guides/gs/accessing-data-mysql/
+The following command adds a user:
+Invoke-RestMethod -Uri http://localhost:8080/demo/add -Method Post -Body @{name='First'; email='someemail@someemailprovider.com'}
+The following command shows all the users:
+Invoke-RestMethod -Uri http://localhost:8080/demo/all
